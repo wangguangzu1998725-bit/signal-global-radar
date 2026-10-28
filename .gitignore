@@ -1,0 +1,15 @@
+node_modules/
+test-results/
+playwright-report/
+private/
+.env
+.env.*
+*.local.*
+signal-issues-backup*.json
+
+_site/
+*.tmp
+
+family-private/
+healthcare-private/
+content/private*/

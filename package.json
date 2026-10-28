@@ -1,0 +1,14 @@
+{
+  "name": "signal-global-radar",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "test": "node scripts/content.mjs --check && node --test tests/publication.test.mjs && node tests/smoke.cjs",
+    "check:content": "node scripts/content.mjs --check",
+    "build": "node scripts/build-site.mjs",
+    "publish:check": "node scripts/publish.mjs --mode check"
+  },
+  "devDependencies": {
+    "playwright": "1.58.2"
+  }
+}

@@ -1,0 +1,98 @@
+name: Daily SIGNAL publication
+on:
+  schedule:
+    - cron: '10 1 * * *' # 09:10 Asia/Shanghai; GitHub may delay scheduled runs.
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'check=配置检查；import=导入公开Markdown；generate=独立API生成'
+        type: choice
+        options: [check, import, generate]
+        default: check
+      date:
+        description: '刊期YYYY-MM-DD；留空为北京时间今天'
+        type: string
+        required: false
+      dry_run:
+        description: '模拟运行：不调用付费API、不提交、不部署'
+        type: boolean
+        default: true
+      confirm_public:
+        description: '导入内容已人工检查可公开且不含家庭私人资料（输入也不是秘密存储）'
+        type: boolean
+        default: false
+      report:
+        description: 'import模式：粘贴带JSON front matter的完整Markdown，仅限可公开资料'
+        type: string
+        required: false
+  pull_request:
+permissions:
+  contents: read
+concurrency:
+  group: signal-publication
+  cancel-in-progress: false
+jobs:
+  dry-run:
+    if: github.event_name == 'pull_request' || (github.event_name == 'workflow_dispatch' && inputs.dry_run && github.ref != 'refs/heads/main')
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Exercise the same read-only manual entry point
+        env:
+          SIGNAL_MODE: ${{ github.event_name == 'pull_request' && 'check' || inputs.mode }}
+          SIGNAL_DATE: ${{ inputs.date }}
+          SIGNAL_DRY_RUN: 'true'
+          SIGNAL_REPORT: ${{ inputs.report }}
+          SIGNAL_CONFIRM_PUBLIC: ${{ inputs.confirm_public }}
+        run: node scripts/publish.mjs
+      - run: node --test tests/publication.test.mjs
+  publish:
+    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 12
+    permissions:
+      contents: write
+    outputs:
+      ready: ${{ steps.publish.outputs.ready }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Check archive before any paid request
+        run: node scripts/content.mjs --check
+      - name: Import or independently generate, validate and commit
+        id: publish
+        env:
+          SIGNAL_MODE: ${{ github.event_name == 'schedule' && 'generate' || inputs.mode }}
+          SIGNAL_DATE: ${{ inputs.date }}
+          SIGNAL_DRY_RUN: ${{ github.event_name == 'schedule' && 'false' || (inputs.dry_run && 'true' || 'false') }}
+          SIGNAL_CONFIRM_PUBLIC: ${{ inputs.confirm_public }}
+          SIGNAL_REPORT: ${{ inputs.report }}
+          SIGNAL_API_ENABLED: ${{ vars.SIGNAL_API_ENABLED }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: node scripts/publish.mjs
+      - name: Keep only a validated public candidate for a failed commit retry
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: signal-validated-public-candidate
+          path: ${{ runner.temp }}/signal-validated-*.md
+          if-no-files-found: ignore
+          retention-days: 3
+  deploy:
+    needs: publish
+    if: needs.publish.outputs.ready == 'true'
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    uses: ./.github/workflows/pages.yml
