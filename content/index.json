@@ -1,0 +1,120 @@
+{
+  "schema_version": 1,
+  "issues": [
+    {
+      "date": "2026-10-28",
+      "title": "SIGNAL｜全球信息雷达｜Global Intelligence Radar｜グローバル情報レーダー",
+      "verified": false,
+      "status": "published",
+      "updated_at": "2026-10-28T09:00:00+08:00",
+      "edition_note": "待核验整理稿",
+      "schema_version": 1,
+      "verification": "unverified",
+      "origin": "legacy-import",
+      "legacy": true,
+      "public_approved": true,
+      "published_at": "2026-10-28T09:00:00+08:00",
+      "sources": [
+        {
+          "url": "https://www.stats.gov.cn/",
+          "title": "原稿来源入口（尚未逐条核验）"
+        },
+        {
+          "url": "https://www.conference-board.org/",
+          "title": "原稿来源入口（尚未逐条核验）"
+        },
+        {
+          "url": "https://www.dmo.gov.uk/",
+          "title": "原稿来源入口（尚未逐条核验）"
+        },
+        {
+          "url": "https://www.irena.org/",
+          "title": "原稿来源入口（尚未逐条核验）"
+        },
+        {
+          "url": "https://christinakubisch.de/electrical-walks",
+          "title": "原稿来源入口（尚未逐条核验）"
+        },
+        {
+          "url": "https://www.publicartfund.org/exhibitions/view/wheatfields-for-manhattan/",
+          "title": "原稿来源入口（尚未逐条核验）"
+        },
+        {
+          "url": "https://www.nmpa.gov.cn/",
+          "title": "原稿来源入口（尚未逐条核验）"
+        },
+        {
+          "url": "https://www.nhsa.gov.cn/",
+          "title": "原稿来源入口（尚未逐条核验）"
+        }
+      ],
+      "file": "issues/2026-10-28.md",
+      "sha256": "eece3543f68b6063145719533c71a7db86babfd4a33422007921e9397acf669d",
+      "excerpt": "# 今日世界速览｜World Briefing｜世界の概況\n\n**日期：2026-10-28（北京时间）**\n\n> **编辑说明：** 本期为依据本次对话中可见的10月28日简报重新整理的**待核验导入稿**，并非已逐条重新查证的正式新闻刊期。部分原报告的来源标记无法直接转为可访问链接，因此未当作已核验来源展示。完整九大专题中没有原文支持的部分保留待补录说明"
+    },
+    {
+      "date": "2026-10-27",
+      "title": "SIGNAL｜历史刊期 27 Oct｜過去の号",
+      "verified": false,
+      "status": "draft",
+      "schema_version": 1,
+      "verification": "unverified",
+      "origin": "legacy-import",
+      "legacy": true,
+      "public_approved": true,
+      "published_at": "2026-10-27T09:00:00+08:00",
+      "sources": [],
+      "file": "issues/2026-10-27.md",
+      "sha256": "fbf70bfc2d978817387b34571588af3c11b54de51cd9f4e745b1e2e7117089db",
+      "excerpt": "# 历史刊期待补录\n\n该日期的完整原始简报尚未取得。这里仅建立档案位置，不代表已核验或发布任何新闻。"
+    },
+    {
+      "date": "2026-10-26",
+      "title": "SIGNAL｜历史刊期 26 Oct｜過去の号",
+      "verified": false,
+      "status": "draft",
+      "schema_version": 1,
+      "verification": "unverified",
+      "origin": "legacy-import",
+      "legacy": true,
+      "public_approved": true,
+      "published_at": "2026-10-26T09:00:00+08:00",
+      "sources": [],
+      "file": "issues/2026-10-26.md",
+      "sha256": "6ad32a6a266139fe92cf64735f1ebcff9bbdddb71a80ca69a92a8c76270bc66f",
+      "excerpt": "# 历史刊期待补录\n\n该日期的完整原始简报尚未取得。这里仅建立档案位置，不代表已核验或发布任何新闻。"
+    },
+    {
+      "date": "2026-10-25",
+      "title": "SIGNAL｜历史刊期 25 Oct｜過去の号",
+      "verified": false,
+      "status": "draft",
+      "schema_version": 1,
+      "verification": "unverified",
+      "origin": "legacy-import",
+      "legacy": true,
+      "public_approved": true,
+      "published_at": "2026-10-25T09:00:00+08:00",
+      "sources": [],
+      "file": "issues/2026-10-25.md",
+      "sha256": "8e0ff2631954cb495bec68785b9b6ced60005499706550ec97ce3f24954763f6",
+      "excerpt": "# 历史刊期待补录\n\n该日期的完整原始简报尚未取得。这里仅建立档案位置，不代表已核验或发布任何新闻。"
+    },
+    {
+      "date": "2026-10-24",
+      "title": "SIGNAL｜历史刊期 24 Oct｜過去の号",
+      "verified": false,
+      "status": "draft",
+      "schema_version": 1,
+      "verification": "unverified",
+      "origin": "legacy-import",
+      "legacy": true,
+      "public_approved": true,
+      "published_at": "2026-10-24T09:00:00+08:00",
+      "sources": [],
+      "file": "issues/2026-10-24.md",
+      "sha256": "2b62e9813f7ad6dfbb2230a1d8980c112b4db4c073e9c96b8820ef56c466ca7b",
+      "excerpt": "# 历史刊期待补录\n\n该日期的完整原始简报尚未取得。这里仅建立档案位置，不代表已核验或发布任何新闻。"
+    }
+  ]
+}

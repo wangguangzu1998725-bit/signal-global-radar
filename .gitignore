@@ -6,3 +6,6 @@ private/
 .env.*
 *.local.*
 signal-issues-backup*.json
+
+_site/
+*.tmp

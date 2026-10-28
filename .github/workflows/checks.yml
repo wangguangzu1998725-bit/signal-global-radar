@@ -11,11 +11,16 @@ jobs:
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
           cache: npm
       - run: npm ci
       - run: npx playwright install --with-deps chromium
+      - name: Reject changes to existing historical files
+        if: github.event_name == 'pull_request'
+        run: node scripts/check-history.mjs
       - run: npm test
       - run: git diff --check

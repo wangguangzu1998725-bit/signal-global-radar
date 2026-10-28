@@ -1,0 +1,109 @@
+{
+  "domains": [
+    "全球政治与地缘关系",
+    "宏观经济与金融",
+    "股票与资本市场",
+    "AI、科技与机器人",
+    "建筑、城市与设计",
+    "跨境电商与全球消费",
+    "健康、医学与科学",
+    "生活方式与社会文化",
+    "商业创新与创业",
+    "全球重要变化与长期趋势"
+  ],
+  "topics": [
+    {
+      "slug": "ai",
+      "num": "01",
+      "name": "AI、科技与机器人"
+    },
+    {
+      "slug": "business",
+      "num": "02",
+      "name": "商业创新与创业"
+    },
+    {
+      "slug": "economics",
+      "num": "03",
+      "name": "经济逻辑与金融基础"
+    },
+    {
+      "slug": "artists",
+      "num": "04",
+      "name": "艺术家与艺术实践"
+    },
+    {
+      "slug": "art-break",
+      "num": "05",
+      "name": "艺术认知破圈"
+    },
+    {
+      "slug": "healthcare",
+      "num": "06",
+      "name": "医药、医保与药房政策"
+    },
+    {
+      "slug": "trade",
+      "num": "07",
+      "name": "外贸与国际进出口贸易"
+    },
+    {
+      "slug": "design",
+      "num": "08",
+      "name": "建筑、城市与设计"
+    },
+    {
+      "slug": "trends",
+      "num": "09",
+      "name": "全球重要变化与长期趋势"
+    }
+  ],
+  "model": "gpt-5-mini",
+  "max_output_tokens": 12000,
+  "max_tool_calls": 8,
+  "reservation_usd": 0.25,
+  "monthly_budget_usd": 8,
+  "allowed_domains": [
+    "reuters.com",
+    "apnews.com",
+    "bbc.com",
+    "bbc.co.uk",
+    "un.org",
+    "who.int",
+    "imf.org",
+    "worldbank.org",
+    "wto.org",
+    "oecd.org",
+    "iea.org",
+    "irena.org",
+    "ec.europa.eu",
+    "europa.eu",
+    "federalreserve.gov",
+    "bls.gov",
+    "bea.gov",
+    "stats.gov.cn",
+    "customs.gov.cn",
+    "gov.cn",
+    "nhsa.gov.cn",
+    "nmpa.gov.cn",
+    "nature.com",
+    "science.org",
+    "arxiv.org",
+    "nist.gov",
+    "nasa.gov",
+    "openai.com",
+    "developers.openai.com",
+    "anthropic.com",
+    "deepmind.google",
+    "blog.google",
+    "microsoft.com",
+    "nvidia.com",
+    "archdaily.com",
+    "dezeen.com",
+    "tate.org.uk",
+    "moma.org",
+    "publicartfund.org",
+    "cardiffmiller.com",
+    "christinakubisch.de"
+  ]
+}
