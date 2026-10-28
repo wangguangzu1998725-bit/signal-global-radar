@@ -9,3 +9,7 @@ signal-issues-backup*.json
 
 _site/
 *.tmp
+
+family-private/
+healthcare-private/
+content/private*/

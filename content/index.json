@@ -50,7 +50,77 @@
       ],
       "file": "issues/2026-10-28.md",
       "sha256": "eece3543f68b6063145719533c71a7db86babfd4a33422007921e9397acf669d",
-      "excerpt": "# 今日世界速览｜World Briefing｜世界の概況\n\n**日期：2026-10-28（北京时间）**\n\n> **编辑说明：** 本期为依据本次对话中可见的10月28日简报重新整理的**待核验导入稿**，并非已逐条重新查证的正式新闻刊期。部分原报告的来源标记无法直接转为可访问链接，因此未当作已核验来源展示。完整九大专题中没有原文支持的部分保留待补录说明"
+      "excerpt": "1. 全球政治与地缘关系：关注俄乌局部人道主义安排、英国与欧盟产业政策协调；原报道细节待核实。\n2. 宏观经济与金融：关注中国工业企业利润、美国消费者信心及英国债券融资成本；数据与原始统计待核实。\n3. 股票与资本市场：关注美欧市场表现，收盘价格与日期待核实。",
+      "daily": {
+        "highlights": 6,
+        "has_world_brief": false,
+        "has_analysis": true
+      },
+      "topics": [
+        {
+          "slug": "ai",
+          "id": "research-ai",
+          "heading": "01 AI、科技与机器人",
+          "state": "gap",
+          "mapping": "legacy-explicit"
+        },
+        {
+          "slug": "business",
+          "id": "research-business",
+          "heading": "02 商业创新与创业",
+          "state": "gap",
+          "mapping": "legacy-explicit"
+        },
+        {
+          "slug": "economics",
+          "id": "research-economics",
+          "heading": "03 经济逻辑与金融基础：边际分析",
+          "state": "content",
+          "mapping": "legacy-explicit"
+        },
+        {
+          "slug": "artists",
+          "id": "research-artists",
+          "heading": "04 艺术与创作研究",
+          "state": "content",
+          "mapping": "legacy-art-split"
+        },
+        {
+          "slug": "art-break",
+          "id": "research-art-break",
+          "heading": "04 艺术与创作研究",
+          "state": "content",
+          "mapping": "legacy-art-split"
+        },
+        {
+          "slug": "healthcare",
+          "id": "research-healthcare",
+          "heading": "05 医药、医保与药房政策",
+          "state": "gap",
+          "mapping": "legacy-explicit"
+        },
+        {
+          "slug": "trade",
+          "id": "research-trade",
+          "heading": null,
+          "state": "missing",
+          "mapping": "legacy-explicit"
+        },
+        {
+          "slug": "design",
+          "id": "research-design",
+          "heading": "06 建筑、城市与设计",
+          "state": "gap",
+          "mapping": "legacy-explicit"
+        },
+        {
+          "slug": "trends",
+          "id": "research-trends",
+          "heading": "07 全球重要变化与长期趋势",
+          "state": "content",
+          "mapping": "legacy-explicit"
+        }
+      ]
     },
     {
       "date": "2026-10-27",
@@ -66,7 +136,77 @@
       "sources": [],
       "file": "issues/2026-10-27.md",
       "sha256": "fbf70bfc2d978817387b34571588af3c11b54de51cd9f4e745b1e2e7117089db",
-      "excerpt": "# 历史刊期待补录\n\n该日期的完整原始简报尚未取得。这里仅建立档案位置，不代表已核验或发布任何新闻。"
+      "excerpt": "该日期的完整原始简报尚未取得。这里仅建立档案位置，不代表已核验或发布任何新闻。",
+      "daily": {
+        "highlights": 0,
+        "has_world_brief": false,
+        "has_analysis": false
+      },
+      "topics": [
+        {
+          "slug": "ai",
+          "id": "research-ai",
+          "heading": null,
+          "state": "missing",
+          "mapping": "legacy-explicit"
+        },
+        {
+          "slug": "business",
+          "id": "research-business",
+          "heading": null,
+          "state": "missing",
+          "mapping": "legacy-explicit"
+        },
+        {
+          "slug": "economics",
+          "id": "research-economics",
+          "heading": null,
+          "state": "missing",
+          "mapping": "legacy-explicit"
+        },
+        {
+          "slug": "artists",
+          "id": "research-artists",
+          "heading": null,
+          "state": "missing",
+          "mapping": "legacy-explicit"
+        },
+        {
+          "slug": "art-break",
+          "id": "research-art-break",
+          "heading": null,
+          "state": "missing",
+          "mapping": "legacy-explicit"
+        },
+        {
+          "slug": "healthcare",
+          "id": "research-healthcare",
+          "heading": null,
+          "state": "missing",
+          "mapping": "legacy-explicit"
+        },
+        {
+          "slug": "trade",
+          "id": "research-trade",
+          "heading": null,
+          "state": "missing",
+          "mapping": "legacy-explicit"
+        },
+        {
+          "slug": "design",
+          "id": "research-design",
+          "heading": null,
+          "state": "missing",
+          "mapping": "legacy-explicit"
+        },
+        {
+          "slug": "trends",
+          "id": "research-trends",
+          "heading": null,
+          "state": "missing",
+          "mapping": "legacy-explicit"
+        }
+      ]
     },
     {
       "date": "2026-10-26",
@@ -82,7 +222,77 @@
       "sources": [],
       "file": "issues/2026-10-26.md",
       "sha256": "6ad32a6a266139fe92cf64735f1ebcff9bbdddb71a80ca69a92a8c76270bc66f",
-      "excerpt": "# 历史刊期待补录\n\n该日期的完整原始简报尚未取得。这里仅建立档案位置，不代表已核验或发布任何新闻。"
+      "excerpt": "该日期的完整原始简报尚未取得。这里仅建立档案位置，不代表已核验或发布任何新闻。",
+      "daily": {
+        "highlights": 0,
+        "has_world_brief": false,
+        "has_analysis": false
+      },
+      "topics": [
+        {
+          "slug": "ai",
+          "id": "research-ai",
+          "heading": null,
+          "state": "missing",
+          "mapping": "legacy-explicit"
+        },
+        {
+          "slug": "business",
+          "id": "research-business",
+          "heading": null,
+          "state": "missing",
+          "mapping": "legacy-explicit"
+        },
+        {
+          "slug": "economics",
+          "id": "research-economics",
+          "heading": null,
+          "state": "missing",
+          "mapping": "legacy-explicit"
+        },
+        {
+          "slug": "artists",
+          "id": "research-artists",
+          "heading": null,
+          "state": "missing",
+          "mapping": "legacy-explicit"
+        },
+        {
+          "slug": "art-break",
+          "id": "research-art-break",
+          "heading": null,
+          "state": "missing",
+          "mapping": "legacy-explicit"
+        },
+        {
+          "slug": "healthcare",
+          "id": "research-healthcare",
+          "heading": null,
+          "state": "missing",
+          "mapping": "legacy-explicit"
+        },
+        {
+          "slug": "trade",
+          "id": "research-trade",
+          "heading": null,
+          "state": "missing",
+          "mapping": "legacy-explicit"
+        },
+        {
+          "slug": "design",
+          "id": "research-design",
+          "heading": null,
+          "state": "missing",
+          "mapping": "legacy-explicit"
+        },
+        {
+          "slug": "trends",
+          "id": "research-trends",
+          "heading": null,
+          "state": "missing",
+          "mapping": "legacy-explicit"
+        }
+      ]
     },
     {
       "date": "2026-10-25",
@@ -98,7 +308,77 @@
       "sources": [],
       "file": "issues/2026-10-25.md",
       "sha256": "8e0ff2631954cb495bec68785b9b6ced60005499706550ec97ce3f24954763f6",
-      "excerpt": "# 历史刊期待补录\n\n该日期的完整原始简报尚未取得。这里仅建立档案位置，不代表已核验或发布任何新闻。"
+      "excerpt": "该日期的完整原始简报尚未取得。这里仅建立档案位置，不代表已核验或发布任何新闻。",
+      "daily": {
+        "highlights": 0,
+        "has_world_brief": false,
+        "has_analysis": false
+      },
+      "topics": [
+        {
+          "slug": "ai",
+          "id": "research-ai",
+          "heading": null,
+          "state": "missing",
+          "mapping": "legacy-explicit"
+        },
+        {
+          "slug": "business",
+          "id": "research-business",
+          "heading": null,
+          "state": "missing",
+          "mapping": "legacy-explicit"
+        },
+        {
+          "slug": "economics",
+          "id": "research-economics",
+          "heading": null,
+          "state": "missing",
+          "mapping": "legacy-explicit"
+        },
+        {
+          "slug": "artists",
+          "id": "research-artists",
+          "heading": null,
+          "state": "missing",
+          "mapping": "legacy-explicit"
+        },
+        {
+          "slug": "art-break",
+          "id": "research-art-break",
+          "heading": null,
+          "state": "missing",
+          "mapping": "legacy-explicit"
+        },
+        {
+          "slug": "healthcare",
+          "id": "research-healthcare",
+          "heading": null,
+          "state": "missing",
+          "mapping": "legacy-explicit"
+        },
+        {
+          "slug": "trade",
+          "id": "research-trade",
+          "heading": null,
+          "state": "missing",
+          "mapping": "legacy-explicit"
+        },
+        {
+          "slug": "design",
+          "id": "research-design",
+          "heading": null,
+          "state": "missing",
+          "mapping": "legacy-explicit"
+        },
+        {
+          "slug": "trends",
+          "id": "research-trends",
+          "heading": null,
+          "state": "missing",
+          "mapping": "legacy-explicit"
+        }
+      ]
     },
     {
       "date": "2026-10-24",
@@ -114,7 +394,169 @@
       "sources": [],
       "file": "issues/2026-10-24.md",
       "sha256": "2b62e9813f7ad6dfbb2230a1d8980c112b4db4c073e9c96b8820ef56c466ca7b",
-      "excerpt": "# 历史刊期待补录\n\n该日期的完整原始简报尚未取得。这里仅建立档案位置，不代表已核验或发布任何新闻。"
+      "excerpt": "该日期的完整原始简报尚未取得。这里仅建立档案位置，不代表已核验或发布任何新闻。",
+      "daily": {
+        "highlights": 0,
+        "has_world_brief": false,
+        "has_analysis": false
+      },
+      "topics": [
+        {
+          "slug": "ai",
+          "id": "research-ai",
+          "heading": null,
+          "state": "missing",
+          "mapping": "legacy-explicit"
+        },
+        {
+          "slug": "business",
+          "id": "research-business",
+          "heading": null,
+          "state": "missing",
+          "mapping": "legacy-explicit"
+        },
+        {
+          "slug": "economics",
+          "id": "research-economics",
+          "heading": null,
+          "state": "missing",
+          "mapping": "legacy-explicit"
+        },
+        {
+          "slug": "artists",
+          "id": "research-artists",
+          "heading": null,
+          "state": "missing",
+          "mapping": "legacy-explicit"
+        },
+        {
+          "slug": "art-break",
+          "id": "research-art-break",
+          "heading": null,
+          "state": "missing",
+          "mapping": "legacy-explicit"
+        },
+        {
+          "slug": "healthcare",
+          "id": "research-healthcare",
+          "heading": null,
+          "state": "missing",
+          "mapping": "legacy-explicit"
+        },
+        {
+          "slug": "trade",
+          "id": "research-trade",
+          "heading": null,
+          "state": "missing",
+          "mapping": "legacy-explicit"
+        },
+        {
+          "slug": "design",
+          "id": "research-design",
+          "heading": null,
+          "state": "missing",
+          "mapping": "legacy-explicit"
+        },
+        {
+          "slug": "trends",
+          "id": "research-trends",
+          "heading": null,
+          "state": "missing",
+          "mapping": "legacy-explicit"
+        }
+      ]
     }
-  ]
+  ],
+  "topics": {
+    "ai": [
+      {
+        "date": "2026-10-28",
+        "slug": "ai",
+        "id": "research-ai",
+        "heading": "01 AI、科技与机器人",
+        "state": "gap",
+        "mapping": "legacy-explicit"
+      }
+    ],
+    "business": [
+      {
+        "date": "2026-10-28",
+        "slug": "business",
+        "id": "research-business",
+        "heading": "02 商业创新与创业",
+        "state": "gap",
+        "mapping": "legacy-explicit"
+      }
+    ],
+    "economics": [
+      {
+        "date": "2026-10-28",
+        "slug": "economics",
+        "id": "research-economics",
+        "heading": "03 经济逻辑与金融基础：边际分析",
+        "state": "content",
+        "mapping": "legacy-explicit"
+      }
+    ],
+    "artists": [
+      {
+        "date": "2026-10-28",
+        "slug": "artists",
+        "id": "research-artists",
+        "heading": "04 艺术与创作研究",
+        "state": "content",
+        "mapping": "legacy-art-split"
+      }
+    ],
+    "art-break": [
+      {
+        "date": "2026-10-28",
+        "slug": "art-break",
+        "id": "research-art-break",
+        "heading": "04 艺术与创作研究",
+        "state": "content",
+        "mapping": "legacy-art-split"
+      }
+    ],
+    "healthcare": [
+      {
+        "date": "2026-10-28",
+        "slug": "healthcare",
+        "id": "research-healthcare",
+        "heading": "05 医药、医保与药房政策",
+        "state": "gap",
+        "mapping": "legacy-explicit"
+      }
+    ],
+    "trade": [
+      {
+        "date": "2026-10-28",
+        "slug": "trade",
+        "id": "research-trade",
+        "heading": null,
+        "state": "missing",
+        "mapping": "legacy-explicit"
+      }
+    ],
+    "design": [
+      {
+        "date": "2026-10-28",
+        "slug": "design",
+        "id": "research-design",
+        "heading": "06 建筑、城市与设计",
+        "state": "gap",
+        "mapping": "legacy-explicit"
+      }
+    ],
+    "trends": [
+      {
+        "date": "2026-10-28",
+        "slug": "trends",
+        "id": "research-trends",
+        "heading": "07 全球重要变化与长期趋势",
+        "state": "content",
+        "mapping": "legacy-explicit"
+      }
+    ]
+  }
 }
